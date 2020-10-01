@@ -1,0 +1,87 @@
+// ==UserScript==
+// @name        linkx Dark
+// @description This is your new userscript, start writing code
+// @version      0.1
+// @description  Dark mode for AoPS forums
+// @author       linkx/slinkous
+// @match        https://artofproblemsolving.com/*
+// @include       https://artofproblemsolving.com/*
+// @grant        none
+// @run-at document-start
+// ==/UserScript==
+
+
+/**topbar**/
+.sharedsite-wrapper {
+    background-color: #222;
+}
+.sharedsite-links .site-link.selected {
+    background-color: #333 !important;
+}
+#header:not(.shrunken-header) .dropdown-visible .site-link {
+    background-color: #111 !important;
+}
+.site-name, .site-link {
+    color: #999;
+}
+
+.site-dropdown-wrapper {
+    background-color: #111;
+    color: #999;
+}
+
+
+
+
+
+#main-menubar {
+    background-color: #333;
+}
+.menubar-label-link{
+    color: #009fad;
+}
+.dropdown-content{
+    background-color: #111;
+}
+.triangle {
+    border-bottom: 12px solid #111;
+}
+
+#page-wrapper {
+    background-color: #333;
+}
+
+
+
+.cmty-post-wrapper {
+    background-color: #222;
+    color: #999;
+}
+
+.cmty-tag-filter .cmty-category-cell-focus {
+    background-color: #444;
+}
+.cmty-topic-posts-top {
+    background-color: #444;
+}
+.cmty-topic-full, .cmty-topics-list {
+    background-color: #444;
+}
+
+#community-all.cmty-page-topic #cmty-topic-view-left {
+    background-color: #444;
+}
+.cmty-post-right {
+    background-color: #222;
+}
+.cmty-post-middle {
+    border: none;
+}
+
+
+.aops-scroll-bar {
+    background-color: #444 !important;
+}
+.aops-scroll-slider {
+    background-color: #999 !important;
+}
