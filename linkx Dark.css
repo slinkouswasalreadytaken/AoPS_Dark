@@ -85,3 +85,10 @@
 .aops-scroll-slider {
     background-color: #999 !important;
 }
+
+.cmty-category-cell-bottom {
+    background-color: #222;
+}
+.cmty-folder-grid .cmty-category-cell {
+    border: none;
+}
